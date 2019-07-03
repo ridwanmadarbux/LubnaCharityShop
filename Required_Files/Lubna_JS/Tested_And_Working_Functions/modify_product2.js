@@ -1,4 +1,4 @@
-var x = modify_product2(2000001,"3Matrix Movie","3First matrix movie with Keanu Reeves","3In Stock",350.00,"3Miscellaneous","3Individual Donation","2019-10-23")
+var x = modify_product2(2000002,"Matrix Movie - Modified","First matrix movie with Keanu Reeves","In Stock",51.50,"Miscellaneous","Individual Donation","2019-01-07")
 
 function modify_product2(product_id, product_name, product_description, product_status, price, product_type, origin, date_added)
 {

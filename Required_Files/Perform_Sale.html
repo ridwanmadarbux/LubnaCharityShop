@@ -72,21 +72,293 @@ http://www.templatemo.com/tm-394-sonic
 					<div class="col-md-12">
 						
 						<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.11519" type="text/javascript"></script>
-<script src="https://js.jotform.com/vendor/postMessage.js?3.3.11519" type="text/javascript"></script>
-<script src="https://js.jotform.com/WidgetsServer.js?v=1558909955345" type="text/javascript"></script>
-<script type="text/javascript"> JotForm.init(function(){ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"]; JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]; JotForm.calendarOther = {"today":"Today"}; var languageOptions = document.querySelectorAll('#langList li'); for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("9", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); }); } JotForm.setCalendar("9", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); JotForm.formatDate({date:(new Date()), dateField:$("id_"+9)}); JotForm.alterTexts(undefined); JotForm.clearFieldOnHide="disable"; JotForm.submitError="jumpToFirstError"; /*INIT-END*/ }); JotForm.prepareCalculationsOnTheFly([null,{"name":"heading","qid":"1","text":"PERFORM A SALE","type":"control_head"},{"name":"performSale","qid":"2","text":"Perform Sale","type":"control_button"},null,null,null,null,{"name":"productId","qid":"7","text":"Product ID","type":"control_widget"},{"description":"","name":"paymentMethod","qid":"8","subLabel":"","text":"Payment Method","type":"control_dropdown"},{"description":"","name":"dateOf","qid":"9","text":"Date of Sale","type":"control_datetime"},{"description":"","name":"totalNumber","qid":"10","subLabel":"","text":"Total Number of Items","type":"control_textbox"},{"description":"","name":"totalPrice","qid":"11","subLabel":"","text":"Total Price in £","type":"control_textbox"}]); setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"PERFORM A SALE","type":"control_head"},{"name":"performSale","qid":"2","text":"Perform Sale","type":"control_button"},null,null,null,null,{"name":"productId","qid":"7","text":"Product ID","type":"control_widget"},{"description":"","name":"paymentMethod","qid":"8","subLabel":"","text":"Payment Method","type":"control_dropdown"},{"description":"","name":"dateOf","qid":"9","text":"Date of Sale","type":"control_datetime"},{"description":"","name":"totalNumber","qid":"10","subLabel":"","text":"Total Number of Items","type":"control_textbox"},{"description":"","name":"totalPrice","qid":"11","subLabel":"","text":"Total Price in £","type":"control_textbox"}]);}, 20); </script>
-<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.11519" rel="stylesheet" type="text/css" />
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.11519" />
-<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.11519" />
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.11919" type="text/javascript"></script>
+<script type="text/javascript">
+	JotForm.init(function(){
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("9", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("9", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+ JotForm.formatDate({date:(new Date()), dateField:$("id_"+9)});
+      JotForm.alterTexts(undefined);
+	JotForm.clearFieldOnHide="disable";
+	JotForm.submitError="jumpToFirstError";
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"heading","qid":"1","text":"PERFORM A SALE","type":"control_head"},{"name":"performSale","qid":"2","text":"Perform Sale","type":"control_button"},null,null,null,null,null,{"description":"","name":"paymentMethod","qid":"8","subLabel":"","text":"Payment Method","type":"control_dropdown"},{"description":"","name":"dateOf","qid":"9","text":"Date of Sale","type":"control_datetime"},{"description":"","name":"totalNumber","qid":"10","subLabel":"","text":"Total Number of Items","type":"control_textbox"},{"description":"","name":"totalPrice","qid":"11","subLabel":"","text":"Total Price in £","type":"control_textbox"},{"description":"","name":"combinedProduct","qid":"12","subLabel":"Enter up to 10 items using the format: 00000000;11111111;22222222;3333333","text":"Combined Product ID","type":"control_textbox"},{"name":"lookUp","qid":"13","text":"Look Up Products","type":"control_button"},{"description":"","name":"productName","qid":"14","subLabel":"","text":"Product Name","type":"control_textbox"},{"description":"","name":"price","qid":"15","subLabel":"","text":"Price","type":"control_textbox"},{"description":"","name":"typeA","qid":"16","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA17","qid":"17","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA18","qid":"18","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA19","qid":"19","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA20","qid":"20","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA21","qid":"21","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA22","qid":"22","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA23","qid":"23","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA24","qid":"24","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA25","qid":"25","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA26","qid":"26","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA27","qid":"27","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA28","qid":"28","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA29","qid":"29","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA30","qid":"30","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA31","qid":"31","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA32","qid":"32","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA33","qid":"33","subLabel":"","text":"","type":"control_textbox"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"PERFORM A SALE","type":"control_head"},{"name":"performSale","qid":"2","text":"Perform Sale","type":"control_button"},null,null,null,null,null,{"description":"","name":"paymentMethod","qid":"8","subLabel":"","text":"Payment Method","type":"control_dropdown"},{"description":"","name":"dateOf","qid":"9","text":"Date of Sale","type":"control_datetime"},{"description":"","name":"totalNumber","qid":"10","subLabel":"","text":"Total Number of Items","type":"control_textbox"},{"description":"","name":"totalPrice","qid":"11","subLabel":"","text":"Total Price in £","type":"control_textbox"},{"description":"","name":"combinedProduct","qid":"12","subLabel":"Enter up to 10 items using the format: 00000000;11111111;22222222;3333333","text":"Combined Product ID","type":"control_textbox"},{"name":"lookUp","qid":"13","text":"Look Up Products","type":"control_button"},{"description":"","name":"productName","qid":"14","subLabel":"","text":"Product Name","type":"control_textbox"},{"description":"","name":"price","qid":"15","subLabel":"","text":"Price","type":"control_textbox"},{"description":"","name":"typeA","qid":"16","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA17","qid":"17","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA18","qid":"18","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA19","qid":"19","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA20","qid":"20","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA21","qid":"21","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA22","qid":"22","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA23","qid":"23","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA24","qid":"24","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA25","qid":"25","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA26","qid":"26","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA27","qid":"27","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA28","qid":"28","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA29","qid":"29","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA30","qid":"30","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA31","qid":"31","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA32","qid":"32","subLabel":"","text":"","type":"control_textbox"},{"description":"","name":"typeA33","qid":"33","subLabel":"","text":"","type":"control_textbox"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.11919" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.11919" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.11919" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?"/>
-<style type="text/css"> .form-label-left{ width:150px; } .form-line{ padding-top:12px; padding-bottom:12px; } .form-label-right{ width:150px; } .form-all{ width:690px; color:#555 !important; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif; font-size:14px; }
-</style> <style type="text/css" id="form-designer-style"> /* Injected CSS Code */
-.form-label.form-label-auto { display: block; float: none; text-align: left; width: inherit; } /*__INSPECT_SEPERATOR__*/ /* Injected CSS Code */
-</style> <form class="jotform-form" action="https://submit.jotformeu.com/submit/91457594887377/" method="post" name="form_91457594887377" id="91457594887377" accept-charset="utf-8"> <input type="hidden" name="formID" value="91457594887377" /> <div role="main" class="form-all"> <ul class="form-section page-section"> <li id="cid_1" class="form-input-wide" data-type="control_head"> <div class="form-header-group "> <div class="header-text httal htvam"> <h2 id="header_1" class="form-header" data-component="header"> PERFORM A SALE </h2> </div> </div> </li> <li class="form-line jf-required" data-type="control_widget" id="id_7"> <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7"> Product ID <span class="form-required"> * </span> </label> <div id="cid_7" class="form-input-wide jf-required"> <div style="width:100%;text-align:Left" data-component="widget-field"> <iframe frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_7" src="" style="border:none;width:300px;height:70px" data-width="300" data-height="70"> </iframe> <div class="widget-inputs-wrapper"> <input type="hidden" id="input_7" class="form-hidden form-widget widget-required " name="q7_productId" value="" /> <input type="hidden" id="widget_settings_7" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22existing%22%2C%22value%22%3A%221%22%7D%2C%7B%22name%22%3A%22buttontext%22%2C%22value%22%3A%22Add%20More%22%7D%2C%7B%22name%22%3A%22size%22%2C%22value%22%3A%2225%22%7D%2C%7B%22name%22%3A%22theme%22%2C%22value%22%3A%22Default%22%7D%5D" data-version="2" /> </div> <script type="text/javascript"> setTimeout(function()
-{ var _cFieldFrame = document.getElementById("customFieldFrame_7"); if (_cFieldFrame) { _cFieldFrame.onload = function() { if (typeof widgetFrameLoaded !== 'undefined') { widgetFrameLoaded(7, { "formID": 91457594887377 }) } }; _cFieldFrame.src = "//widgets.jotform.io/dynamicFields/?qid=7&ref=" + encodeURIComponent(window.location.protocol + "//" + window.location.host); _cFieldFrame.addClassName("custom-field-frame-rendered"); }
-}, 0); </script> </div> </div> </li> <li class="form-line jf-required" data-type="control_dropdown" id="id_8"> <label class="form-label form-label-top form-label-auto" id="label_8" for="input_8"> Payment Method <span class="form-required"> * </span> </label> <div id="cid_8" class="form-input-wide jf-required"> <select class="form-dropdown validate[required]" id="input_8" name="q8_paymentMethod" style="width:150px" data-component="dropdown" required=""> <option value=""> </option> <option value="Card"> Card </option> <option value="Cash"> Cash </option> </select> </div> </li> <li class="form-line jf-required" data-type="control_datetime" id="id_9"> <label class="form-label form-label-top form-label-auto" id="label_9" for="lite_mode_9"> Date of Sale <span class="form-required"> * </span> </label> <div id="cid_9" class="form-input-wide jf-required"> <div data-wrapper-react="true"> <div style="display:none"> <span class="form-sub-label-container" style="vertical-align:top"> <input type="tel" class="currentDate form-textbox validate[required, limitDate]" id="day_9" name="q9_dateOf[day]" size="2" data-maxlength="2" value="26" required="" aria-labelledby="label_9 sublabel_day" /> <span class="date-separate"> - </span> <label class="form-sub-label" for="day_9" id="sublabel_day" style="min-height:13px"> Day </label> </span> <span class="form-sub-label-container" style="vertical-align:top"> <input type="tel" class="form-textbox validate[required, limitDate]" id="month_9" name="q9_dateOf[month]" size="2" data-maxlength="2" value="05" required="" aria-labelledby="label_9 sublabel_month" /> <span class="date-separate"> - </span> <label class="form-sub-label" for="month_9" id="sublabel_month" style="min-height:13px"> Month </label> </span> <span class="form-sub-label-container" style="vertical-align:top"> <input type="tel" class="form-textbox validate[required, limitDate]" id="year_9" name="q9_dateOf[year]" size="4" data-maxlength="4" value="2019" required="" aria-labelledby="label_9 sublabel_year" /> <label class="form-sub-label" for="year_9" id="sublabel_year" style="min-height:13px"> Year </label> </span> </div> <span class="form-sub-label-container" style="vertical-align:top"> <input type="text" class="form-textbox validate[required, limitDate, validateLiteDate]" id="lite_mode_9" size="12" data-maxlength="12" data-age="" value="26-05-2019" required="" data-format="ddmmyyyy" data-seperator="-" placeholder="dd-mm-yyyy" aria-labelledby="label_9" /> <img class="showAutoCalendar" alt="Pick a Date" id="input_9_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle;margin-left:5px" data-component="datetime" aria-hidden="true" /> <label class="form-sub-label" for="lite_mode_9" id="sublabel_litemode" style="min-height:13px"> </label> </span> <span class="form-sub-label-container" style="vertical-align:top"> <label class="form-sub-label" for="input_9_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap"> Date Picker Icon </label> </span> </div> </div> </li> <li class="form-line" data-type="control_textbox" id="id_10"> <label class="form-label form-label-top form-label-auto" id="label_10" for="input_10"> Total Number of Items </label> <div id="cid_10" class="form-input-wide"> <input type="text" id="input_10" name="q10_totalNumber" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_10" /> </div> </li> <li class="form-line" data-type="control_textbox" id="id_11"> <label class="form-label form-label-top form-label-auto" id="label_11" for="input_11"> Total Price in £ </label> <div id="cid_11" class="form-input-wide"> <input type="text" id="input_11" name="q11_totalPrice" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_11" /> </div> </li> <li class="form-line" data-type="control_button" id="id_2"> <div id="cid_2" class="form-input-wide"> <div style="text-align:left" class="form-buttons-wrapper"> <button id="input_2" type="submit" class="form-submit-button" data-component="button"> Perform Sale </button> <span> </span> <button id="input_reset_2" type="reset" class="form-submit-reset" data-component="button"> Clear Form </button> </div> </div> </li> <li style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </li> </ul> </div> <script> JotForm.showJotFormPowered = "new_footer"; </script> <input type="hidden" id="simple_spc" name="simple_spc" value="91457594887377" /> <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "91457594887377-91457594887377"; </script> <script src="https://cdn.jotfor.ms/js/widgetResizer.js?REV=3.3.11519" type="text/javascript"></script>
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+.form-label.form-label-auto { display: block; float: none; text-align: left; width: inherit; } /*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+</style>
+
+<form class="jotform-form" action="https://submit.jotformeu.com/submit/91457594887377/" method="post" name="form_91457594887377" id="91457594887377" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="91457594887377" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group ">
+          <div class="header-text httal htvam">
+            <h2 id="header_1" class="form-header" data-component="header">
+              PERFORM A SALE
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_12">
+        <label class="form-label form-label-top form-label-auto" id="label_12" for="input_12">
+          Combined Product ID
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_12" class="form-input-wide jf-required">
+          <span class="form-sub-label-container" style="vertical-align:top">
+            <input type="text" id="input_12" name="q12_combinedProduct" data-type="input-textbox" class="form-textbox validate[required]" size="80" value="" data-component="textbox" aria-labelledby="label_12 sublabel_input_12" required="" />
+            <label class="form-sub-label" for="input_12" id="sublabel_input_12" style="min-height:13px"> Enter up to 10 items using the format: 00000000;11111111;22222222;3333333 </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_13">
+        <div id="cid_13" class="form-input-wide">
+          <div style="text-align:left" class="form-buttons-wrapper">
+            <button id="input_13" type="submit" class="form-submit-button" data-component="button">
+              Look Up Products
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_textbox" id="id_14">
+        <label class="form-label form-label-top" id="label_14" for="input_14"> Product Name </label>
+        <div id="cid_14" class="form-input-wide">
+          <input type="text" id="input_14" name="q14_productName" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_14" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_15">
+        <label class="form-label form-label-top" id="label_15" for="input_15"> Price </label>
+        <div id="cid_15" class="form-input-wide">
+          <input type="text" id="input_15" name="q15_price" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_15" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_textbox" id="id_16">
+        <label class="form-label form-label-top" id="label_16" for="input_16">  </label>
+        <div id="cid_16" class="form-input-wide">
+          <input type="text" id="input_16" name="q16_typeA" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_16" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-4" data-type="control_textbox" id="id_17">
+        <label class="form-label form-label-top" id="label_17" for="input_17">  </label>
+        <div id="cid_17" class="form-input-wide">
+          <input type="text" id="input_17" name="q17_typeA17" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_17" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-5" data-type="control_textbox" id="id_18">
+        <label class="form-label form-label-top" id="label_18" for="input_18">  </label>
+        <div id="cid_18" class="form-input-wide">
+          <input type="text" id="input_18" name="q18_typeA18" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_18" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-6" data-type="control_textbox" id="id_19">
+        <label class="form-label form-label-top" id="label_19" for="input_19">  </label>
+        <div id="cid_19" class="form-input-wide">
+          <input type="text" id="input_19" name="q19_typeA19" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_19" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-7" data-type="control_textbox" id="id_20">
+        <label class="form-label form-label-top" id="label_20" for="input_20">  </label>
+        <div id="cid_20" class="form-input-wide">
+          <input type="text" id="input_20" name="q20_typeA20" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_20" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-8" data-type="control_textbox" id="id_21">
+        <label class="form-label form-label-top" id="label_21" for="input_21">  </label>
+        <div id="cid_21" class="form-input-wide">
+          <input type="text" id="input_21" name="q21_typeA21" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_21" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-9" data-type="control_textbox" id="id_22">
+        <label class="form-label form-label-top" id="label_22" for="input_22">  </label>
+        <div id="cid_22" class="form-input-wide">
+          <input type="text" id="input_22" name="q22_typeA22" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_22" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-10" data-type="control_textbox" id="id_23">
+        <label class="form-label form-label-top" id="label_23" for="input_23">  </label>
+        <div id="cid_23" class="form-input-wide">
+          <input type="text" id="input_23" name="q23_typeA23" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_23" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-11" data-type="control_textbox" id="id_24">
+        <label class="form-label form-label-top" id="label_24" for="input_24">  </label>
+        <div id="cid_24" class="form-input-wide">
+          <input type="text" id="input_24" name="q24_typeA24" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_24" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-12" data-type="control_textbox" id="id_25">
+        <label class="form-label form-label-top" id="label_25" for="input_25">  </label>
+        <div id="cid_25" class="form-input-wide">
+          <input type="text" id="input_25" name="q25_typeA25" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_25" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-13" data-type="control_textbox" id="id_26">
+        <label class="form-label form-label-top" id="label_26" for="input_26">  </label>
+        <div id="cid_26" class="form-input-wide">
+          <input type="text" id="input_26" name="q26_typeA26" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_26" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-14" data-type="control_textbox" id="id_27">
+        <label class="form-label form-label-top" id="label_27" for="input_27">  </label>
+        <div id="cid_27" class="form-input-wide">
+          <input type="text" id="input_27" name="q27_typeA27" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_27" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-15" data-type="control_textbox" id="id_28">
+        <label class="form-label form-label-top" id="label_28" for="input_28">  </label>
+        <div id="cid_28" class="form-input-wide">
+          <input type="text" id="input_28" name="q28_typeA28" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_28" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-16" data-type="control_textbox" id="id_29">
+        <label class="form-label form-label-top" id="label_29" for="input_29">  </label>
+        <div id="cid_29" class="form-input-wide">
+          <input type="text" id="input_29" name="q29_typeA29" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_29" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-17" data-type="control_textbox" id="id_30">
+        <label class="form-label form-label-top" id="label_30" for="input_30">  </label>
+        <div id="cid_30" class="form-input-wide">
+          <input type="text" id="input_30" name="q30_typeA30" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_30" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-18" data-type="control_textbox" id="id_31">
+        <label class="form-label form-label-top" id="label_31" for="input_31">  </label>
+        <div id="cid_31" class="form-input-wide">
+          <input type="text" id="input_31" name="q31_typeA31" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_31" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-19" data-type="control_textbox" id="id_32">
+        <label class="form-label form-label-top" id="label_32" for="input_32">  </label>
+        <div id="cid_32" class="form-input-wide">
+          <input type="text" id="input_32" name="q32_typeA32" data-type="input-textbox" class="form-textbox" size="35" value="" data-component="textbox" aria-labelledby="label_32" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-20" data-type="control_textbox" id="id_33">
+        <label class="form-label form-label-top" id="label_33" for="input_33">  </label>
+        <div id="cid_33" class="form-input-wide">
+          <input type="text" id="input_33" name="q33_typeA33" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" aria-labelledby="label_33" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_dropdown" id="id_8">
+        <label class="form-label form-label-top form-label-auto" id="label_8" for="input_8"> Payment Method </label>
+        <div id="cid_8" class="form-input-wide">
+          <select class="form-dropdown" id="input_8" name="q8_paymentMethod" style="width:150px" data-component="dropdown" aria-labelledby="label_8">
+            <option value="">  </option>
+            <option value="Card"> Card </option>
+            <option value="Cash"> Cash </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_datetime" id="id_9">
+        <label class="form-label form-label-top form-label-auto" id="label_9" for="lite_mode_9">
+          Date of Sale
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_9" class="form-input-wide jf-required">
+          <div data-wrapper-react="true">
+            <div style="display:none">
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="currentDate form-textbox validate[required, limitDate]" id="day_9" name="q9_dateOf[day]" size="2" data-maxlength="2" value="03" required="" aria-labelledby="label_9 sublabel_9_day" />
+                <span class="date-separate" aria-hidden="true">
+                   -
+                </span>
+                <label class="form-sub-label" for="day_9" id="sublabel_9_day" style="min-height:13px"> Day </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="month_9" name="q9_dateOf[month]" size="2" data-maxlength="2" value="07" required="" aria-labelledby="label_9 sublabel_9_month" />
+                <span class="date-separate" aria-hidden="true">
+                   -
+                </span>
+                <label class="form-sub-label" for="month_9" id="sublabel_9_month" style="min-height:13px"> Month </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="year_9" name="q9_dateOf[year]" size="4" data-maxlength="4" value="2019" required="" aria-labelledby="label_9 sublabel_9_year" />
+                <label class="form-sub-label" for="year_9" id="sublabel_9_year" style="min-height:13px"> Year </label>
+              </span>
+            </div>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" class="form-textbox validate[required, limitDate, validateLiteDate]" id="lite_mode_9" size="12" data-maxlength="12" data-age="" value="03-07-2019" required="" data-format="ddmmyyyy" data-seperator="-" placeholder="dd-mm-yyyy" aria-labelledby="label_9" />
+              <img class="showAutoCalendar" alt="Pick a Date" id="input_9_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle;margin-left:5px" data-component="datetime" aria-hidden="true" />
+              <label class="form-sub-label" for="lite_mode_9" id="sublabel_9_litemode" style="min-height:13px">  </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <label class="form-sub-label" for="input_9_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap"> Date Picker Icon </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_10">
+        <label class="form-label form-label-top form-label-auto" id="label_10" for="input_10"> Total Number of Items </label>
+        <div id="cid_10" class="form-input-wide">
+          <input type="text" id="input_10" name="q10_totalNumber" data-type="input-textbox" class="form-readonly form-textbox" size="20" value="" tabindex="-1" data-component="textbox" aria-labelledby="label_10" readonly="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_11">
+        <label class="form-label form-label-top form-label-auto" id="label_11" for="input_11"> Total Price in £ </label>
+        <div id="cid_11" class="form-input-wide">
+          <input type="text" id="input_11" name="q11_totalPrice" data-type="input-textbox" class="form-readonly form-textbox" size="20" value="" tabindex="-1" data-component="textbox" aria-labelledby="label_11" readonly="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div style="text-align:left" class="form-buttons-wrapper">
+            <button id="input_2" type="submit" class="form-submit-button" data-component="button">
+              Perform Sale
+            </button>
+            <span>
+               
+            </span>
+            <button id="input_reset_2" type="reset" class="form-submit-reset" data-component="button">
+              Clear Form
+            </button>
+          </div>
+        </div>
+      </li>
+
+
 
 </form>
 <script type="text/javascript">JotForm.forwardToEu=true;</script>

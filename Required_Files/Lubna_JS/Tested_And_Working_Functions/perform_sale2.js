@@ -1,4 +1,4 @@
-var x = perform_sale2("2000000,2000001","card","2019-10-23");
+var x = perform_sale2("2000000,2000002","card","2019-07-01");
 
 function perform_sale2(Product_id_combination, Payment_type, date_added)
 {

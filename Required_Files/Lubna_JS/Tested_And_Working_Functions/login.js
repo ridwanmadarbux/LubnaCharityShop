@@ -1,4 +1,4 @@
-var x = login(1000001,"3Monde@1");
+var x = login(1000000,"he1$inki");
 
 function login(Employee_id,Entered_Password)
 {

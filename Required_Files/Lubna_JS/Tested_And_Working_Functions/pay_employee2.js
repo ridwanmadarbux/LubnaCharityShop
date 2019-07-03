@@ -1,4 +1,4 @@
-var x = pay_employee2(1000000, 3000,"2019-10-23")
+var x = pay_employee2(1000002, 3500,"2019-07-01")
 
 function pay_employee2(Employee_id, Amount_Paid, date_added)
 {
