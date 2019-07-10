@@ -1,5 +1,3 @@
-var x = modify_store1(3000001,function(y){/*console.log(y);*/});
-
 function modify_store1(Store_id,callback)
 {
 	var Connection = require('tedious').Connection;

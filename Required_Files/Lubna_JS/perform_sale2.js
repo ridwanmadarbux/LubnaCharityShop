@@ -1,5 +1,3 @@
-var x = perform_sale2("2000000,2000001","card","2019-10-23");
-
 function perform_sale2(Product_id_combination, Payment_type, date_added)
 {
 	var Connection = require('tedious').Connection;

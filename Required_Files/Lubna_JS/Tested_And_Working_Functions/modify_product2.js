@@ -1,4 +1,15 @@
-var x = modify_product2(2000002,"Matrix Movie - Modified","First matrix movie with Keanu Reeves","In Stock",51.50,"Miscellaneous","Individual Donation","2019-01-07")
+//var x = modify_product2(2000002,"Matrix Movie - Modified","First matrix movie with Keanu Reeves","In Stock",51.50,"Miscellaneous","Individual Donation","2019-01-07")
+//var x = modify_product2(2000005,"Pyjamas","","In Stock",6.0000,"Clothes","Individual Donation","2019-05-07")
+//var x = modify_product2(2000030,"Polo Shirts","","In Stock",10.0000,"Clothes","Individual Donation","2019-06-18")
+//var x = modify_product2(2000037,"Bracelets","","In Stock",10.0000,"Jewelry","Individual Donation","2019-05-17")
+//var x = modify_product2(2000047,"Boots","","In Stock",15.0000,"Miscellaneous","Individual Donation","2019-06-08")
+//var x = modify_product2(2000064,"Beddings","","In Stock",9.0000,"Miscellaneous","Individual Donation","2019-05-20")
+//var x = modify_product2(2000077,"Food processor","","In Stock",16.0000,"Miscellaneous","Company Donation","2019-05-07")
+//var x = modify_product2(2000090,"Wall oil painting","","In Stock",6.0000,"Painting","Unknown","2019-06-08")
+//var x = modify_product2(2000097,"Clocks","","In Stock",6.0000,"Decoration","Unknown","2019-05-11")
+//var x = modify_product2(2000113,"Mug holder","","In Stock",3.0000,"Decoration","Individual Donation","2019-06-24")
+//var x = modify_product2(2000129,"Pots","","In Stock",5.0000,"Miscellaneous","Individual Donation","2019-06-10")
+
 
 function modify_product2(product_id, product_name, product_description, product_status, price, product_type, origin, date_added)
 {

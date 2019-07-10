@@ -1,5 +1,3 @@
-var x = logout();
-
 function logout()
 {
 	var Connection = require('tedious').Connection;

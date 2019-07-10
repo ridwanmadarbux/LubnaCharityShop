@@ -1,5 +1,3 @@
-var x = modify_store2(3000001,"Lubna Shop 3","3, walthamstow Street","3Walthamstow","3Waltham Forest","3London","3E17 0AA","2019-10-24")
-
 function modify_store2(store_id,store_name, address_1, address_2, address_3, address_4, post_code, date_added)
 {
 	var Connection = require('tedious').Connection;

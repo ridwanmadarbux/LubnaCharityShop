@@ -1,5 +1,3 @@
-var x = modify_employee2(1000001,"3Monde@1","3Mr","3Muhammad","3Ridwan","3Madarbux","32, walthamstow Street","3Walthamstow","3Waltham Forest","3London","3E17 0AA","3Data Analyst","3Senior Associate",340000,"3Lloyds Bank",31234560,3321245,"3ridwanmadarbux@yahoo.com",344,37578467980,"2019-10-24")
-
 function modify_employee2(Employee_id, Login_Password, Title, First_Name, Middle_Name, Last_Name, Address_Line_1, Address_Line_2, Address_Line_3, Address_Line_4, Address_Post_Code, Job_Title, Job_Grade, Salary, Bank_Name, Bank_Account_Number, Bank_Sort_Code, Email_Add, Phone_Num_Area_Code, Phone_Num, date_added)
 {
 	var Connection = require('tedious').Connection;

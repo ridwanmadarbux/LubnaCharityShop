@@ -1,5 +1,3 @@
-var x = pay_employee1(1000001,function(y){/*console.log(y);*/});
-
 function pay_employee1(Employee_id,callback)
 {
 	var Connection = require('tedious').Connection;

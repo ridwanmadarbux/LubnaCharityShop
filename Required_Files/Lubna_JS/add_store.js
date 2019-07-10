@@ -1,5 +1,3 @@
-var x = add_store("Lubna Shop 2","2, walthamstow Street","Walthamstow","Waltham Forest","London","E17 0AA","2019-10-23")
-
 function add_store(store_name, address_1, address_2, address_3, address_4, post_code, date_added)
 {
 	var Connection = require('tedious').Connection;

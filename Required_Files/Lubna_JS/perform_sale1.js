@@ -1,5 +1,3 @@
-var x = perform_sale1("2000000,2000001",function(y){console.log(y);});
-
 function perform_sale1(Product_id_combination,callback)
 {
 	var Connection = require('tedious').Connection;

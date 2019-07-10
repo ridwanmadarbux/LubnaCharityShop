@@ -1,5 +1,3 @@
-var x = add_product("Matrix Movie","First matrix movie with Keanu Reeves","In Stock",50.00,"Miscellaneous","Individual Donation","2019-10-23")
-
 function add_product(product_name, product_description, product_status, price, product_type, origin, date_added)
 {
 	var Connection = require('tedious').Connection;

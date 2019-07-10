@@ -1,5 +1,3 @@
-var x = add_employee("Monde@1","Mr","Muhammad","Ridwan","Madarbux","2, walthamstow Street","Walthamstow","Waltham Forest","London","E17 0AA","Data Analyst","Senior Associate",40000,"Lloyds Bank",1234560,321245,"ridwanmadarbux@yahoo.com",44,7578467980,"2019-10-23")
-
 function add_employee(Login_Password, Title, First_Name, Middle_Name, Last_Name, Address_Line_1, Address_Line_2, Address_Line_3, Address_Line_4, Address_Post_Code, Job_Title, Job_Grade, Salary, Bank_Name, Bank_Account_Number, Bank_Sort_Code, Email_Add, Phone_Num_Area_Code, Phone_Num, date_added)
 {
 	var Connection = require('tedious').Connection;

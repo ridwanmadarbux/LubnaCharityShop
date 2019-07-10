@@ -1,4 +1,10 @@
-var x = modify_employee2(1000002,"Monde@1","Mr","Muhammad","Ridwan","Madarbux","52, Wow Street","Zoopla","Hilton","London","E14 0AA","Data Analyst","Senior Associate",40000,"Lloyds Bank",1234560,321245,"ridwanmadarbux@yahoo.com",44,7578467980,"2019-07-01")
+//var x = modify_employee2(1000002,"Monde@1","Mr","Muhammad","Ridwan","Madarbux","52, Wow Street","Zoopla","Hilton","London","E14 0AA","Data Analyst","Senior Associate",40000,"Lloyds Bank",1234560,321245,"ridwanmadarbux@yahoo.com",44,7578467980,"2019-07-01")
+//var x = modify_employee2(1000001,"Monde@538","Mr","Muhammad","Ridwan","Madarbux","52, Wow Street","Zoopla","Hilton","London","E14 0AA","Data Analyst","Senior Associate",40000.0000,"Lloyds Bank",1234560,321245,"ridwanmadarbux@yahoo.com",44,7578467980,"2019-05-16")
+//var x = modify_employee2(1000014,"i4y3j","Mrs","Trudy","","Shore","7 Blisston Street","Wood green","London","","E4 7RE","Data Analyst","Senior Associate",40000.0000,"Metro Bank",87654329,987654,"trudyshore@hotmail.com",44,7654321987,"2019-06-09")
+//var x = modify_employee2(1000030,"8733j9","Mr","Finse","","Johanson","39 William Street","Bury St","London","","E5 13EQ","Consultant","Intern",29500.0000,"Santanter Bank",76847393,987654,"finJohanson@yahoo.com",44,7463793922,"2019-06-05")
+//var x = modify_employee2(1000036,"82und","Mr","David","","Harrison","24 Edmonds Place","Redbridge","London","","SE5 3HL","Consultant","Director",90000.0000,"HSBC Bank",73929203,987654,"Davidharrison2@yahoo.com",55,9874987487,"2019-05-06")
+//var x = modify_employee2(1000048,"hello_world","Mr","Nooman","","Rawat","4 Chatham Place","Ilford","London","","NE05GH","Analyst","Graduate",30000.0000,"Barclays Bank",76382927,183849,"noomanrawat@yahoo.com",44,7486383922,"2019-06-18")
+
 
 function modify_employee2(Employee_id, Login_Password, Title, First_Name, Middle_Name, Last_Name, Address_Line_1, Address_Line_2, Address_Line_3, Address_Line_4, Address_Post_Code, Job_Title, Job_Grade, Salary, Bank_Name, Bank_Account_Number, Bank_Sort_Code, Email_Add, Phone_Num_Area_Code, Phone_Num, date_added)
 {
@@ -90,7 +96,7 @@ function modify_employee2(Employee_id, Login_Password, Title, First_Name, Middle
 				request.addParameter('Job_Grade', TYPES.VarChar, Job_Grade);
 				request.addParameter('Salary', TYPES.Money, Salary);
 				request.addParameter('Bank_Name', TYPES.VarChar, Bank_Name);
-				request.addParameter('Bank_Account_Number', TYPES.Int, Bank_Account_Number);
+				request.addParameter('Bank_Account_Number', TYPES.BigInt, Bank_Account_Number);
 				request.addParameter('Bank_Sort_Code', TYPES.Int, Bank_Sort_Code);
 				request.addParameter('Email_Add', TYPES.VarChar, Email_Add);
 				request.addParameter('Phone_Num_Area_Code', TYPES.Int, Phone_Num_Area_Code);

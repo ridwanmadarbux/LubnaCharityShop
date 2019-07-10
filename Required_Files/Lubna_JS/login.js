@@ -1,5 +1,3 @@
-var x = login(1000001,"3Monde@1");
-
 function login(Employee_id,Entered_Password)
 {
 	var Connection = require('tedious').Connection;

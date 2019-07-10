@@ -1,4 +1,16 @@
-var x = add_store("Lubna Shop 2","2, walthamstow Street","Walthamstow","Waltham Forest","London","E17 0AA","2019-10-23")
+//var x = add_store("Lubna Shop 2","2, walthamstow Street","Walthamstow","Waltham Forest","London","E17 0AA","2019-10-23")
+//var x = add_store("Lubna Charity Shop Chingford","1, Chingford Road","Chingford","","","E4 0AA","2019-05-01")
+//var x = add_store("Lubna Shop","3, walthamstow Street","Walthamstow","Waltham Forest","London","E17 0AA","2019-05-17")
+//var x = add_store("Lubna CharityShop Finsbury","45 Beaufont Road ","Finsbury Park","Finsbury ","London","E16 92E","2019-06-24")
+//var x = add_store("Lubna Shop for kids","30 Morrison road ","Stratford","Stratford","London","E15 4EJ","2019-05-26")
+//var x = add_store("Lubna Charity shop Leyton","12 Newham road ","Leyton","Leyton","London","E13 3AD","2019-07-01")
+//var x = add_store("Lubna Charity Hackney","5 robert lane","Hackney","Hackney","London","E3 4SG","2019-06-07")
+//var x = add_store("Lubna Charity Shop Ilford","21 Dawlish Drive","Ilford","Ilford","London","E5 6XE","2019-06-28")
+//var x = add_store("Lubna Charity Shop Dagenham","40 Bloxhall road ","Dagenham","Romford","London","E12 6HE","2019-07-02")
+//var x = add_store("Lubna Charity Shop kent","8 Overmead Street ","Swanley","Kent","Kent","E12 5KL","2019-05-22")
+//var x = add_store("Lubna Charity Shop Woodford","9 Tudor road ","Woodfrod","Woodford","London","E17 4DS","2019-06-20")
+//var x = add_store("Lubna Charity Shop mile End","17 churchill road ","Mile End","Mile End ","London","E5 4BA","2019-06-01")
+
 
 function add_store(store_name, address_1, address_2, address_3, address_4, post_code, date_added)
 {

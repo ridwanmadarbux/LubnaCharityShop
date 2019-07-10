@@ -1,5 +1,3 @@
-var x = modify_product1(2000001,function(y){/*console.log(y);*/});
-
 function modify_product1(Product_id,callback)
 {
 	var Connection = require('tedious').Connection;
